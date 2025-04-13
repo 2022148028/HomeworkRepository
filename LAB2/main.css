@@ -1,0 +1,60 @@
+.greeting {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.forms {
+  width : 400px;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  margin-left: 10px;
+}
+
+.redirectbutton {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: coral;
+  color: black;
+  border-radius: 7px;   
+  border: none;
+}
+
+.signupbutton {
+  background-color: greenyellow;
+  color: black;
+  width: 60px;
+  height: 30px;
+  border-radius: 7px;   
+  border: none; 
+}
+
+.loginbutton {
+    background-color: greenyellow;
+    color: black;
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;   
+    border: none; 
+  }
+
+.cancelbutton {
+  background-color: red;
+  color: white;
+  width: 60px;
+  height: 30px;
+  border-radius: 7px;  
+  border: none; 
+  }
