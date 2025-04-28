@@ -1,0 +1,233 @@
+.greeting {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.forms {
+  width : 400px;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  margin-left: 10px;
+}
+
+.redirectbutton {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: coral;
+  color: black;
+  border-radius: 7px;   
+  border: none;
+}
+
+.signupbutton {
+  background-color: greenyellow;
+  color: black;
+  width: 60px;
+  height: 30px;
+  border-radius: 7px;   
+  border: none; 
+}
+
+.loginbutton {
+    background-color: greenyellow;
+    color: black;
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;   
+    border: none; 
+  }
+
+.cancelbutton {
+  background-color: red;
+  color: white;
+  width: 60px;
+  height: 30px;
+  border-radius: 7px;  
+  border: none; 
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  h1 {
+    font-size: 30px;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 40px;
+    font-size: 48px;
+    max-width: 1020px;
+    margin: 0 auto;
+  }
+  
+  .slide {
+    width: fit-content;
+    animation: slideIn 2s forwards;
+    position: relative;
+  }
+  
+  @keyframes slideIn {
+    from {
+      left: 100%;
+    }
+    to {
+      left: 0;
+    }
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    width: 100%;
+    max-width: 1020px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+  }
+  
+  .nav a {
+    color: black;
+  }
+  
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* 영화 카드 리스트 */
+  .movie-list {
+    display: grid;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  /* 영화 카드 */
+  .movie-card {
+    border: 1px solid black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* 이미지와 제목을 감싸는 박스 */
+  .image-wrapper {
+    display: flex;           
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .image-wrapper img {
+    width: 100%;
+    height: auto;
+    transition: transform 2s;
+  }
+  
+  .image-wrapper img:hover {
+    transform: scale(1.2);
+  }
+  
+  .image-wrapper h2 {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: cyan;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .image-wrapper img:hover + h2 {
+    opacity: 1;
+  }
+  
+  /* 텍스트 설명 */
+  .movie-description {
+    text-align: left;
+    align-self: flex-start;
+    display: flex;          
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    max-width: 1020px;
+    line-height: 1.6;
+  }
+  
+  .movie-description h3 {
+    border-bottom: 2px solid black;
+    width: 100%;
+  }
+  
+  /* 네비게이션 반응형 */
+  @media screen and (max-width: 800px) {
+    .nav {
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+    /* 데스크탑: 4열 */
+    @media screen and (min-width: 801px) {
+      .movie-list {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+    
+    /* 태블릿: 2열 */
+    @media screen and (max-width: 800px) and (min-width: 481px) {
+      .movie-list {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    
+    /* 모바일: 1열 */
+    @media screen and (max-width: 480px) {
+      .movie-list {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    
+  
