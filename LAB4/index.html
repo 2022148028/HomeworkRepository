@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Movie Store</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+  <h1 class="header">임준하의 영화사이트</h1>
+  <div class="container">
+    <!-- 로그인/회원가입 버튼 -->
+    <nav class="nav">
+      <a href="index.html">메인페이지</a>
+      <a href="login.html">로그인</a>
+      <a href="signup.html">회원가입</a>
+    </nav>
+
+    <!-- 검색창 + 버튼 -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search movies..." />
+      <button id="searchButton">검색</button>
+    </div>
+
+    <!-- 정렬 + 카드 -->
+    <div class="main-section">
+      <div class="sort-box">
+        <form id="sortForm">
+          <p><strong>정렬기준</strong></p>
+          <label><input type="radio" name="sort" value="rating-asc" /> 평점 오름차순</label><br/>
+          <label><input type="radio" name="sort" value="rating-desc" /> 평점 내림차순</label><br/>
+          <label><input type="radio" name="sort" value="runtime-asc" /> 런타임 오름차순</label><br/>
+          <label><input type="radio" name="sort" value="runtime-desc" /> 런타임 내림차순</label>
+        </form>
+      </div>
+
+      <div id="productList" class="movie-list">
+        <!-- 영화 카드가 여기에 삽입됨 -->
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let movies = [];
+    let filteredMovies = [];
+    let startIndex = 0;
+    const batchSize = 6;
+
+    window.addEventListener('DOMContentLoaded', () => {
+      fetch('product.json')
+        .then(response => response.json())
+        .then(data => {
+          movies = data;
+          filteredMovies = [...movies];
+          renderMovies(filteredMovies);
+        });
+
+      document.getElementById('searchButton').addEventListener('click', handleSearchClick);
+      document.getElementById('sortForm').addEventListener('change', handleSort);
+    });
+
+    function renderNextBatch() {
+      const container = document.getElementById('productList');
+      const nextBatch = filteredMovies.slice(startIndex, startIndex + batchSize);
+
+      nextBatch.forEach(movie => {
+        const card = document.createElement('div');
+        card.className = 'movie-card';
+        card.innerHTML = `
+          <div class="image-wrapper">
+            <img src="${movie.image}" alt="${movie.name}" />
+            <div class="overlay">
+              <p class="overview">${movie.overview}</p>
+            </div>
+          </div>
+          <div class="movie-description">
+            <h3>${movie.name}</h3>
+            <p><strong>장르:</strong> ${movie.genre}</p>
+            <p><strong>개봉일:</strong> ${movie.release_date}</p>
+            <p><strong>평점:</strong> ${movie.rating}</p>
+            <p><strong>런타임:</strong> ${movie.runtime}분</p>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+
+      startIndex += batchSize;
+    }
+
+    function renderMovies(movieArray) {
+      const container = document.getElementById('productList');
+      container.innerHTML = '';
+      startIndex = 0;
+      renderNextBatch();
+    }
+
+    function handleSearch() {
+      const keyword = document.getElementById('searchInput').value.toLowerCase();
+      filteredMovies = movies.filter(movie =>
+        movie.name.toLowerCase().includes(keyword) ||
+        movie.genre.toLowerCase().includes(keyword)
+      );
+      renderMovies(filteredMovies);
+    }
+
+    function handleSearchClick() {
+      handleSearch();
+    }
+
+    function handleSort(e) {
+      const value = e.target.value;
+      if (!value) return;
+      const [key, order] = value.split('-');
+      filteredMovies.sort((a, b) => order === 'asc' ? a[key] - b[key] : b[key] - a[key]);
+      renderMovies(filteredMovies);
+    }
+
+    window.addEventListener('scroll', () => {
+      const bottomReached = window.innerHeight + window.scrollY >= document.body.offsetHeight - 10;
+      if (bottomReached && startIndex < filteredMovies.length) {
+        renderNextBatch();
+      }
+    });
+  </script>
+</body>
+</html>

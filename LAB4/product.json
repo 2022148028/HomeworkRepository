@@ -1,0 +1,252 @@
+[
+  {
+    "id": "843",
+    "name": "In the Mood for Love",
+    "genre": "Drama",
+    "release_date": "2000-05-22",
+    "rating": 7.8,
+    "runtime": 98,
+    "image": "img/in_the_mood_for_love.jpg",
+    "overview": "A melancholy story about the love between a woman and a man who live in the same building and one day find out that their husband and wife had an affair with each other. More and more the two meet during their daily lives as they determine that they both don’t want to be lonely in their marriage."
+  },
+  {
+    "id": "77",
+    "name": "Memento",
+    "genre": "Mystery",
+    "release_date": "2000-10-11",
+    "rating": 8.1,
+    "runtime": 113,
+    "image": "img/memento.jpg",
+    "overview": "Suffering short-term memory loss after a head injury, Leonard Shelby embarks on a grim quest to find the lowlife who murdered his wife in this gritty, complex thriller that packs more knots than a hangman's noose. To carry out his plan, Shelby snaps Polaroids of people and places, jotting down contextual notes on the backs of photos to aid in his search and jog his memory. He even tattoos his own body in a desperate bid to remember."
+  },
+  {
+    "id": "10681",
+    "name": "WALL-E",
+    "genre": "Animation",
+    "release_date": "2008-06-22",
+    "rating": 7.8,
+    "runtime": 98,
+    "image": "img/wall_e.jpg",
+    "overview": "WALL·E is the last robot left on an Earth that has been overrun with garbage and all humans have fled to outer space. For 700 years he has continued to try and clean up the mess, but has developed some rather interesting human-like qualities. When a ship arrives with a sleek new type of robot, WALL·E thinks he's finally found a friend and stows away on the ship when it leaves."
+  },
+  {
+    "id": "1018",
+    "name": "Mulholland Drive",
+    "genre": "Thriller",
+    "release_date": "2001-05-16",
+    "rating": 7.7,
+    "runtime": 147,
+    "image": "img/mulholland_drive.jpg",
+    "overview": "After a car wreck on the winding Mulholland Drive renders a woman amnesic, she and a perky Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality."
+  },
+  {
+    "id": "129",
+    "name": "Spirited Away",
+    "genre": "Fantasy",
+    "release_date": "2001-07-20",
+    "rating": 8.3,
+    "runtime": 125,
+    "image": "img/spirited_away.jpg",
+    "overview": "A ten year old girl who wanders away from her parents along a path that leads to a world ruled by strange and unusual monster-like animals. Her parents have been changed into pigs along with others inside a bathhouse full of these creatures. Will she ever see the world how it once was?"
+  },
+  {
+    "id": "153",
+    "name": "Lost in Translation",
+    "genre": "Drama",
+    "release_date": "2003-08-31",
+    "rating": 7.3,
+    "runtime": 102,
+    "image": "img/lost_in_translation.jpg",
+    "overview": "Two lost souls visiting Tokyo -- the young, neglected wife of a photographer and a washed-up movie star shooting a TV commercial -- find an odd solace and pensive freedom to be real in each other's company, away from their lives in America."
+  },
+  {
+    "id": "38",
+    "name": "Eternal Sunshine of the Spotless Mind",
+    "genre": "Science Fiction",
+    "release_date": "2004-03-19",
+    "rating": 7.9,
+    "runtime": 108,
+    "image": "img/eternal_sunshine_of_the_spotless_mind.jpg",
+    "overview": "Joel Barish, heartbroken that his girlfriend underwent a procedure to erase him from her memory, decides to do the same. However, as he watches his memories of her fade away, he realises that he still loves her, and may be too late to correct his mistake."
+  },
+  {
+    "id": "37799",
+    "name": "The Social Network",
+    "genre": "Drama",
+    "release_date": "2010-09-30",
+    "rating": 7.1,
+    "runtime": 120,
+    "image": "img/the_social_network.jpg",
+    "overview": "On a fall night in 2003, Harvard undergrad and computer programming genius Mark Zuckerberg sits down at his computer and heatedly begins working on a new idea. In a fury of blogging and programming, what begins in his dorm room as a small site among friends soon becomes a global social network and a revolution in communication. A mere six years and 500 million friends later, Mark Zuckerberg is the youngest billionaire in history... but for this entrepreneur, success leads to both personal and legal complications."
+  },
+  {
+    "id": "142",
+    "name": "Brokeback Mountain",
+    "genre": "Drama",
+    "release_date": "2005-09-02",
+    "rating": 7.5,
+    "runtime": 134,
+    "image": "img/brokeback_mountain.jpg",
+    "overview": "Brokeback Mountain is an Ang Lee film about two modern day cowboys who meet on a shepherding job in the summer of ’63. The two share a raw and powerful summer together that turns into a life long relationship conflicting with the lives they are supposed to live."
+  },
+  {
+    "id": "9693",
+    "name": "Children of Men",
+    "genre": "Drama",
+    "release_date": "2006-09-22",
+    "rating": 7.4,
+    "runtime": 109,
+    "image": "img/children_of_men.jpg",
+    "overview": "In 2027, in a chaotic world in which humans can no longer procreate, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary at sea, where her child's birth may help scientists save the future of humankind."
+  },
+  {
+    "id": "1949",
+    "name": "Zodiac",
+    "genre": "Crime",
+    "release_date": "2007-03-02",
+    "rating": 7.3,
+    "runtime": 157,
+    "image": "img/zodiac.jpg",
+    "overview": "The true story of the investigation of 'The Zodiac Killer',  a serial killer who terrified the San Francisco Bay Area, taunting police with his ciphers and letters. The case becomes an obsession for four men as their lives and careers are built and destroyed by the endless trail of clues."
+  },
+  {
+    "id": "2009",
+    "name": "4 Months, 3 Weeks and 2 Days",
+    "genre": "Drama",
+    "release_date": "2007-08-24",
+    "rating": 7.4,
+    "runtime": 113,
+    "image": "img/4_months_3_weeks_and_2_days.jpg",
+    "overview": "Gabita is pregnant, abortion is strictly forbidden in Romania during the communist regime. Despite this it is common practice and Gabita wants an abortion. The movie follows her and her friend Otilia during the day she has made the appointment with Mr. Bebe to have the abortion."
+  },
+  {
+    "id": "6977",
+    "name": "No Country for Old Men",
+    "genre": "Crime",
+    "release_date": "2007-11-08",
+    "rating": 7.7,
+    "runtime": 122,
+    "image": "img/no_country_for_old_men.jpg",
+    "overview": "Llewelyn Moss stumbles upon dead bodies, $2 million and a hoard of heroin in a Texas desert, but methodical killer Anton Chigurh comes looking for it, with local sheriff Ed Tom Bell hot on his trail. The roles of prey and predator blur as the violent pursuit of money and justice collide."
+  },
+  {
+    "id": "7345",
+    "name": "There Will Be Blood",
+    "genre": "Drama",
+    "release_date": "2007-12-28",
+    "rating": 7.9,
+    "runtime": 158,
+    "image": "img/there_will_be_blood.jpg",
+    "overview": "When ruthless oil prospector, Daniel Plainview learns of oil-rich land in California that can be bought cheaply, he moves his operation there and begins manipulating and exploiting the local landowners into selling him their property. Using his young adopted son to project the image of a caring family man, Plainview gains the cooperation of almost all the locals with lofty promises to build schools and cultivate the land to make their community flourish. Over time, Plainview's gradual accumulation of wealth and power causes his true self to surface, and he begins to slowly alienate himself from everyone in his life."
+  },
+  {
+    "id": "4960",
+    "name": "Synecdoche, New York",
+    "genre": "Drama",
+    "release_date": "2008-10-24",
+    "rating": 7.4,
+    "runtime": 124,
+    "image": "img/synecdoche_new_york.jpg",
+    "overview": "A theater director struggles with his work, and the women in his life, as he attempts to create a life-size replica of New York inside a warehouse as part of his new play."
+  },
+  {
+    "id": "37903",
+    "name": "The White Ribbon",
+    "genre": "Crime",
+    "release_date": "2009-05-21",
+    "rating": 7.2,
+    "runtime": 144,
+    "image": "img/the_white_ribbon.jpg",
+    "overview": "Strange events happen in a small village in the north of Germany during the years just before World War I, which seem to be ritual punishment. The abused and suppressed children of the villagers seem to be at the heart of this mystery."
+  },
+  {
+    "id": "8967",
+    "name": "The Tree of Life",
+    "genre": "Drama",
+    "release_date": "2011-05-18",
+    "rating": 6.5,
+    "runtime": 139,
+    "image": "img/the_tree_of_life.jpg",
+    "overview": "The impressionistic story of a Texas family in the 1950s. The film follows the life journey of the eldest son, Jack, through the innocence of childhood to his disillusioned adult years as he tries to reconcile a complicated relationship with his father. Jack finds himself a lost soul in the modern world, seeking answers to the origins and meaning of life while questioning the existence of faith."
+  },
+  {
+    "id": "60243",
+    "name": "A Separation",
+    "genre": "Drama",
+    "release_date": "2011-03-15",
+    "rating": 7.8,
+    "runtime": 123,
+    "image": "img/a_separation.jpg",
+    "overview": "A married couple are faced with a difficult decision - to improve the life of their child by moving to another country or to stay in Iran and look after a deteriorating parent who has Alzheimer's disease."
+  },
+  {
+    "id": "68722",
+    "name": "The Master",
+    "genre": "Drama",
+    "release_date": "2012-09-07",
+    "rating": 7.0,
+    "runtime": 137,
+    "image": "img/the_master.jpg",
+    "overview": "Freddie, a volatile, heavy-drinking veteran who suffers from post-traumatic stress disorder, finds some semblance of a family when he stumbles onto the ship of Lancaster Dodd, the charismatic leader of a new \"religion\" he forms after World War II."
+  },
+  {
+    "id": "103328",
+    "name": "Holy Motors",
+    "genre": "Drama",
+    "release_date": "2012-07-02",
+    "rating": 7.0,
+    "runtime": 115,
+    "image": "img/holy_motors.jpg",
+    "overview": "We follow 24 hours in the life of a being moving from life to life like a cold and solitary assassin moving from hit to hit. In each of these interwoven lives, the being possesses an entirely distinct identity: sometimes a man, sometimes a woman, sometimes youthful, sometimes old. By turns murderer, beggar, company chairman, monstrous creature, worker, family man."
+  },
+  {
+    "id": "123678",
+    "name": "The Act of Killing",
+    "genre": "Documentary",
+    "release_date": "2012-08-31",
+    "rating": 7.5,
+    "runtime": 115,
+    "image": "img/the_act_of_killing.jpg",
+    "overview": "In a place where killers are celebrated as heroes, these filmmakers challenge unrepentant death-squad leaders to dramatize their role in genocide. The result is a surreal, cinematic journey, not only into the memories and imaginations of mass murderers, but also into a frighteningly banal regime of corruption and impunity."
+  },
+  {
+    "id": "86829",
+    "name": "Inside Llewyn Davis",
+    "genre": "Drama",
+    "release_date": "2013-10-06",
+    "rating": 7.2,
+    "runtime": 105,
+    "image": "img/inside_llewyn_davis.jpg",
+    "overview": "In Greenwich Village in the early 1960s, gifted but volatile folk musician Llewyn Davis struggles with money, relationships, and his uncertain future following the suicide of his singing partner."
+  },
+  {
+    "id": "120467",
+    "name": "The Grand Budapest Hotel",
+    "genre": "Comedy",
+    "release_date": "2014-02-26",
+    "rating": 8.0,
+    "runtime": 99,
+    "image": "img/the_grand_budapest_hotel.jpg",
+    "overview": "The Grand Budapest Hotel tells of a legendary concierge at a famous European hotel between the wars and his friendship with a young employee who becomes his trusted protégé. The story involves the theft and recovery of a priceless Renaissance painting, the battle for an enormous family fortune and the slow and then sudden upheavals that transformed Europe during the first half of the 20th century."
+  },
+  {
+    "id": "85350",
+    "name": "Boyhood",
+    "genre": "Drama",
+    "release_date": "2014-06-05",
+    "rating": 7.5,
+    "runtime": 164,
+    "image": "img/boyhood.jpg",
+    "overview": "The film tells a story of a divorced couple trying to raise their young son. The story follows the boy for twelve years, from first grade at age 6 through 12th grade at age 17-18, and examines his relationship with his parents as he grows."
+  },
+  {
+    "id": "76341",
+    "name": "Mad Max: Fury Road",
+    "genre": "Action",
+    "release_date": "2015-05-13",
+    "rating": 7.3,
+    "runtime": 120,
+    "image": "img/mad_max_fury_road.jpg",
+    "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order. There's Max, a man of action and a man of few words, who seeks peace of mind following the loss of his wife and child in the aftermath of the chaos. And Furiosa, a woman of action and a woman who believes her path to survival may be achieved if she can make it across the desert back to her childhood homeland."
+  }
+]
